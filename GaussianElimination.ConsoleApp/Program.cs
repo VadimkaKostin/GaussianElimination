@@ -16,8 +16,9 @@ public class Program
 
             double[,] initialMatrix = ReadSystemEquationMatrix(n);
 
-
             double[,] matrix = (double[,])initialMatrix.Clone();
+
+            Console.WriteLine("Matrix has been read successfully!");
 
             Stopwatch consistentStopwatch = Stopwatch.StartNew();
 
@@ -25,23 +26,23 @@ public class Program
 
             consistentStopwatch.Stop();
 
+            bool consistentSolvedSuccessfully = CheckSolution(initialMatrix, consistentSolution, n);
+
+            Console.WriteLine($"\nConsistent result: ({string.Join(", ", consistentSolution)})");
+            Console.WriteLine($"Successfull: {consistentSolvedSuccessfully}");
+            Console.WriteLine($"Time involved: {consistentStopwatch.Elapsed}");
+
             Stopwatch parallelStopwatch = Stopwatch.StartNew();
 
             double[] parallelSolution = ParallelGaussianElimination.SolveSystemOfLinearEquations(matrix, n);
 
             parallelStopwatch.Stop();
 
-            bool consistentSolvedSuccessfully = CheckSolution(initialMatrix, consistentSolution, n);
-
-            Console.WriteLine($"\nConsistent result: ({string.Join(", ", consistentSolution)})");
-            Console.WriteLine($"Successfull: {consistentSolvedSuccessfully}");
-            Console.WriteLine($"Time involved: {consistentStopwatch.Elapsed.Microseconds} ms");
-
             bool parallelSolvedSuccessfully = CheckSolution(initialMatrix, parallelSolution, n);
 
             Console.WriteLine($"\nParallel result: ({string.Join(", ", parallelSolution)})");
             Console.WriteLine($"Successfull: {parallelSolvedSuccessfully}");
-            Console.WriteLine($"Time involved: {parallelStopwatch.Elapsed.Microseconds} ms");
+            Console.WriteLine($"Time involved: {parallelStopwatch.Elapsed}");
         }
         catch (Exception ex)
         {

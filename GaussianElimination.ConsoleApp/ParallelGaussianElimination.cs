@@ -1,13 +1,11 @@
-﻿namespace GaussianElimination.ConsoleApp;
+﻿using System.Collections.Concurrent;
+
+namespace GaussianElimination.ConsoleApp;
 
 public static class ParallelGaussianElimination
 {
-    private static double[,] _matrix;
-
     public static double[] SolveSystemOfLinearEquations(double[,] matrix, int variablesAmount)
     {
-        _matrix = matrix;
-
         ApplyGaussEliminationOnMatrix(matrix, variablesAmount);
 
         double[] solution = ApplyBackSubstitution(matrix, variablesAmount);
@@ -24,20 +22,16 @@ public static class ParallelGaussianElimination
                 throw new ArgumentException("Mathematical error.");
             }
 
-            double[] pivotRow = matrix.GetRow(i);
-
             Parallel.For(fromInclusive: i + 1, toExclusive: variablesAmount, j =>
             {
-                double[] currentRow = matrix.GetRow(j);
+                double ratio;
 
-                double ratio = currentRow[i] / pivotRow[i];
+                ratio = matrix[j, i] / matrix[i, i];
 
                 for (int k = 0; k < variablesAmount + 1; k++)
                 {
-                    currentRow[k] = currentRow[k] - ratio * pivotRow[k];
+                    matrix[j, k] = matrix[j, k] - ratio * matrix[i, k];
                 }
-
-                matrix.SetRow(j, currentRow);
             });
         }
     }

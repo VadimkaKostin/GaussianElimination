@@ -12,3 +12,4 @@ D:\Projects\Parallel\KR\GaussianElimination\GaussianElimination.ConsoleApp\obj\D
 D:\Projects\Parallel\KR\GaussianElimination\GaussianElimination.ConsoleApp\obj\Debug\net8.0\GaussianElimination.ConsoleApp.pdb
 D:\Projects\Parallel\KR\GaussianElimination\GaussianElimination.ConsoleApp\obj\Debug\net8.0\GaussianElimination.ConsoleApp.genruntimeconfig.cache
 D:\Projects\Parallel\KR\GaussianElimination\GaussianElimination.ConsoleApp\obj\Debug\net8.0\ref\GaussianElimination.ConsoleApp.dll
+D:\Projects\Parallel\KR\GaussianElimination\GaussianElimination.ConsoleApp\obj\Debug\net8.0\GaussianElimination.ConsoleApp.sourcelink.json
