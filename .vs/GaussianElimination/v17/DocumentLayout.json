@@ -1,0 +1,120 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\Parallel\\KR\\GaussianElimination\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A03BAFDD-6333-45E9-B1E7-0D810739E551}|GaussianElimination.ConsoleApp\\GaussianElimination.ConsoleApp.csproj|d:\\projects\\parallel\\kr\\gaussianelimination\\gaussianelimination.consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A03BAFDD-6333-45E9-B1E7-0D810739E551}|GaussianElimination.ConsoleApp\\GaussianElimination.ConsoleApp.csproj|solutionrelative:gaussianelimination.consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A03BAFDD-6333-45E9-B1E7-0D810739E551}|GaussianElimination.ConsoleApp\\GaussianElimination.ConsoleApp.csproj|d:\\projects\\parallel\\kr\\gaussianelimination\\gaussianelimination.consoleapp\\consistentgaussianelimination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A03BAFDD-6333-45E9-B1E7-0D810739E551}|GaussianElimination.ConsoleApp\\GaussianElimination.ConsoleApp.csproj|solutionrelative:gaussianelimination.consoleapp\\consistentgaussianelimination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A03BAFDD-6333-45E9-B1E7-0D810739E551}|GaussianElimination.ConsoleApp\\GaussianElimination.ConsoleApp.csproj|d:\\projects\\parallel\\kr\\gaussianelimination\\gaussianelimination.consoleapp\\parallelgaussianelimination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A03BAFDD-6333-45E9-B1E7-0D810739E551}|GaussianElimination.ConsoleApp\\GaussianElimination.ConsoleApp.csproj|solutionrelative:gaussianelimination.consoleapp\\parallelgaussianelimination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A03BAFDD-6333-45E9-B1E7-0D810739E551}|GaussianElimination.ConsoleApp\\GaussianElimination.ConsoleApp.csproj|d:\\projects\\parallel\\kr\\gaussianelimination\\gaussianelimination.consoleapp\\matrixextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A03BAFDD-6333-45E9-B1E7-0D810739E551}|GaussianElimination.ConsoleApp\\GaussianElimination.ConsoleApp.csproj|solutionrelative:gaussianelimination.consoleapp\\matrixextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MatrixExtensions.cs",
+              "DocumentMoniker": "D:\\Projects\\Parallel\\KR\\GaussianElimination\\GaussianElimination.ConsoleApp\\MatrixExtensions.cs",
+              "RelativeDocumentMoniker": "GaussianElimination.ConsoleApp\\MatrixExtensions.cs",
+              "ToolTip": "D:\\Projects\\Parallel\\KR\\GaussianElimination\\GaussianElimination.ConsoleApp\\MatrixExtensions.cs",
+              "RelativeToolTip": "GaussianElimination.ConsoleApp\\MatrixExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T22:17:58.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ParallelGaussianElimination.cs",
+              "DocumentMoniker": "D:\\Projects\\Parallel\\KR\\GaussianElimination\\GaussianElimination.ConsoleApp\\ParallelGaussianElimination.cs",
+              "RelativeDocumentMoniker": "GaussianElimination.ConsoleApp\\ParallelGaussianElimination.cs",
+              "ToolTip": "D:\\Projects\\Parallel\\KR\\GaussianElimination\\GaussianElimination.ConsoleApp\\ParallelGaussianElimination.cs",
+              "RelativeToolTip": "GaussianElimination.ConsoleApp\\ParallelGaussianElimination.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T22:56:21.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ConsistentGaussianElimination.cs",
+              "DocumentMoniker": "D:\\Projects\\Parallel\\KR\\GaussianElimination\\GaussianElimination.ConsoleApp\\ConsistentGaussianElimination.cs",
+              "RelativeDocumentMoniker": "GaussianElimination.ConsoleApp\\ConsistentGaussianElimination.cs",
+              "ToolTip": "D:\\Projects\\Parallel\\KR\\GaussianElimination\\GaussianElimination.ConsoleApp\\ConsistentGaussianElimination.cs",
+              "RelativeToolTip": "GaussianElimination.ConsoleApp\\ConsistentGaussianElimination.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T21:20:40.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects\\Parallel\\KR\\GaussianElimination\\GaussianElimination.ConsoleApp\\Program.cs",
+              "RelativeDocumentMoniker": "GaussianElimination.ConsoleApp\\Program.cs",
+              "ToolTip": "D:\\Projects\\Parallel\\KR\\GaussianElimination\\GaussianElimination.ConsoleApp\\Program.cs",
+              "RelativeToolTip": "GaussianElimination.ConsoleApp\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD8AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T18:13:45.001Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

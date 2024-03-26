@@ -1,0 +1,14 @@
+D:\Projects\Parallel\KR\GaussianElimination\GaussianElimination.ConsoleApp\bin\Debug\net8.0\GaussianElimination.ConsoleApp.exe
+D:\Projects\Parallel\KR\GaussianElimination\GaussianElimination.ConsoleApp\bin\Debug\net8.0\GaussianElimination.ConsoleApp.deps.json
+D:\Projects\Parallel\KR\GaussianElimination\GaussianElimination.ConsoleApp\bin\Debug\net8.0\GaussianElimination.ConsoleApp.runtimeconfig.json
+D:\Projects\Parallel\KR\GaussianElimination\GaussianElimination.ConsoleApp\bin\Debug\net8.0\GaussianElimination.ConsoleApp.dll
+D:\Projects\Parallel\KR\GaussianElimination\GaussianElimination.ConsoleApp\bin\Debug\net8.0\GaussianElimination.ConsoleApp.pdb
+D:\Projects\Parallel\KR\GaussianElimination\GaussianElimination.ConsoleApp\obj\Debug\net8.0\GaussianElimination.ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Parallel\KR\GaussianElimination\GaussianElimination.ConsoleApp\obj\Debug\net8.0\GaussianElimination.ConsoleApp.AssemblyInfoInputs.cache
+D:\Projects\Parallel\KR\GaussianElimination\GaussianElimination.ConsoleApp\obj\Debug\net8.0\GaussianElimination.ConsoleApp.AssemblyInfo.cs
+D:\Projects\Parallel\KR\GaussianElimination\GaussianElimination.ConsoleApp\obj\Debug\net8.0\GaussianElimination.ConsoleApp.csproj.CoreCompileInputs.cache
+D:\Projects\Parallel\KR\GaussianElimination\GaussianElimination.ConsoleApp\obj\Debug\net8.0\GaussianElimination.ConsoleApp.dll
+D:\Projects\Parallel\KR\GaussianElimination\GaussianElimination.ConsoleApp\obj\Debug\net8.0\refint\GaussianElimination.ConsoleApp.dll
+D:\Projects\Parallel\KR\GaussianElimination\GaussianElimination.ConsoleApp\obj\Debug\net8.0\GaussianElimination.ConsoleApp.pdb
+D:\Projects\Parallel\KR\GaussianElimination\GaussianElimination.ConsoleApp\obj\Debug\net8.0\GaussianElimination.ConsoleApp.genruntimeconfig.cache
+D:\Projects\Parallel\KR\GaussianElimination\GaussianElimination.ConsoleApp\obj\Debug\net8.0\ref\GaussianElimination.ConsoleApp.dll
