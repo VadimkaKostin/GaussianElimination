@@ -6,14 +6,14 @@ public static class ParallelGaussianElimination
 {
     public static double[] SolveSystemOfLinearEquations(double[,] matrix, int variablesAmount)
     {
-        ApplyGaussEliminationOnMatrix(matrix, variablesAmount);
+        ApplyGaussElimination(matrix, variablesAmount);
 
         double[] solution = ApplyBackSubstitution(matrix, variablesAmount);
 
         return solution;
     }
 
-    private static void ApplyGaussEliminationOnMatrix(double[,] matrix, int variablesAmount)
+    private static void ApplyGaussElimination(double[,] matrix, int variablesAmount)
     {
         for (int i = 0; i < variablesAmount - 1; i++)
         {
@@ -30,7 +30,7 @@ public static class ParallelGaussianElimination
 
                 for (int k = 0; k < variablesAmount + 1; k++)
                 {
-                    matrix[j, k] = matrix[j, k] - ratio * matrix[i, k];
+                    Interlocked.Exchange(ref matrix[j, k], matrix[j, k] - ratio * matrix[i, k]);
                 }
             });
         }
