@@ -30,7 +30,7 @@ public class Program
 
             Console.WriteLine($"\nConsistent result: ({string.Join(", ", consistentSolution)})");
             Console.WriteLine($"Successfull: {consistentSolvedSuccessfully}");
-            Console.WriteLine($"Time involved: {consistentStopwatch.Elapsed}");
+            Console.WriteLine($"Time involved: {consistentStopwatch.Elapsed} ({consistentStopwatch.Elapsed.TotalMicroseconds})");
 
             Stopwatch parallelStopwatch = Stopwatch.StartNew();
 
@@ -42,7 +42,7 @@ public class Program
 
             Console.WriteLine($"\nParallel result: ({string.Join(", ", parallelSolution)})");
             Console.WriteLine($"Successfull: {parallelSolvedSuccessfully}");
-            Console.WriteLine($"Time involved: {parallelStopwatch.Elapsed}");
+            Console.WriteLine($"Time involved: {parallelStopwatch.Elapsed} ({parallelStopwatch.Elapsed.TotalMicroseconds})");
         }
         catch (Exception ex)
         {
