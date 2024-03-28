@@ -1,6 +1,4 @@
-﻿using System.Collections.Concurrent;
-
-namespace GaussianElimination.ConsoleApp;
+﻿namespace GaussianElimination.ConsoleApp;
 
 public static class ParallelGaussianElimination
 {

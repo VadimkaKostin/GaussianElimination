@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GaussianElimination.ConsoleApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a7bbd8ea614f0acbbb50752f9a95268e300fdff8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4f4c8aabae41162203b5c828de2c852912518dc6")]
 [assembly: System.Reflection.AssemblyProductAttribute("GaussianElimination.ConsoleApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GaussianElimination.ConsoleApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
