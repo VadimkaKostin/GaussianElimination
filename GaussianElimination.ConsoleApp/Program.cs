@@ -30,7 +30,7 @@ public class Program
 
             Console.WriteLine($"\nConsistent result: ({string.Join(", ", consistentSolution)})");
             Console.WriteLine($"Successfull: {consistentSolvedSuccessfully}");
-            Console.WriteLine($"Time involved: {consistentStopwatch.Elapsed} ({consistentStopwatch.Elapsed.TotalMicroseconds})");
+            Console.WriteLine($"Time involved: {consistentStopwatch.Elapsed} ({consistentStopwatch.Elapsed.TotalMicroseconds} microseconds)");
 
             Stopwatch parallelStopwatch = Stopwatch.StartNew();
 
@@ -42,7 +42,7 @@ public class Program
 
             Console.WriteLine($"\nParallel result: ({string.Join(", ", parallelSolution)})");
             Console.WriteLine($"Successfull: {parallelSolvedSuccessfully}");
-            Console.WriteLine($"Time involved: {parallelStopwatch.Elapsed} ({parallelStopwatch.Elapsed.TotalMicroseconds})");
+            Console.WriteLine($"Time involved: {parallelStopwatch.Elapsed} ({parallelStopwatch.Elapsed.TotalMicroseconds} microseconds)");
         }
         catch (Exception ex)
         {
@@ -71,6 +71,8 @@ public class Program
 
     private static bool CheckSolution(double[,] matrix, double[] solution, int n)
     {
+        double epsilon = 1e-2;
+
         for (int i = 0; i < n; i++)
         {
             double sum = 0;
@@ -80,12 +82,33 @@ public class Program
                 sum += matrix[i, j] * solution[j];
             }
 
-            if ((int)Math.Round(sum, MidpointRounding.AwayFromZero) != matrix[i, n])
+            sum -= matrix[i, n];
+
+            if (Math.Abs(sum) > epsilon)
             {
                 return false;
             }
         }
 
         return true;
+    }
+
+    private static void GenerateSystemOfLinearEquations(int variablesAmount)
+    {
+        Random random = new();
+
+        using StreamWriter writer = new($"matrix_{variablesAmount}.txt");
+
+        for (int i = 0; i < variablesAmount; i++)
+        {
+            int[] row = new int[variablesAmount + 1];
+
+            for (int j = 0; j < variablesAmount + 1; j++)
+            {
+                row[j] = random.Next(10000, 100000);
+            }
+
+            writer.WriteLine(string.Join(' ', row));
+        }
     }
 }

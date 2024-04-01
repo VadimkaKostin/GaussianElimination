@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{A03BAFDD-6333-45E9-B1E7-0D810739E551}|GaussianElimination.ConsoleApp\\GaussianElimination.ConsoleApp.csproj|solutionrelative:gaussianelimination.consoleapp\\parallelgaussianelimination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A03BAFDD-6333-45E9-B1E7-0D810739E551}|GaussianElimination.ConsoleApp\\GaussianElimination.ConsoleApp.csproj|d:\\projects\\parallel\\kr\\gaussianelimination\\gaussianelimination.consoleapp\\consistentgaussianelimination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A03BAFDD-6333-45E9-B1E7-0D810739E551}|GaussianElimination.ConsoleApp\\GaussianElimination.ConsoleApp.csproj|solutionrelative:gaussianelimination.consoleapp\\consistentgaussianelimination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A03BAFDD-6333-45E9-B1E7-0D810739E551}|GaussianElimination.ConsoleApp\\GaussianElimination.ConsoleApp.csproj|d:\\projects\\parallel\\kr\\gaussianelimination\\gaussianelimination.consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A03BAFDD-6333-45E9-B1E7-0D810739E551}|GaussianElimination.ConsoleApp\\GaussianElimination.ConsoleApp.csproj|solutionrelative:gaussianelimination.consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A03BAFDD-6333-45E9-B1E7-0D810739E551}|GaussianElimination.ConsoleApp\\GaussianElimination.ConsoleApp.csproj|d:\\projects\\parallel\\kr\\gaussianelimination\\gaussianelimination.consoleapp\\consistentgaussianelimination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A03BAFDD-6333-45E9-B1E7-0D810739E551}|GaussianElimination.ConsoleApp\\GaussianElimination.ConsoleApp.csproj|solutionrelative:gaussianelimination.consoleapp\\consistentgaussianelimination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -64,33 +64,32 @@
               "RelativeDocumentMoniker": "GaussianElimination.ConsoleApp\\ParallelGaussianElimination.cs",
               "ToolTip": "D:\\Projects\\Parallel\\KR\\GaussianElimination\\GaussianElimination.ConsoleApp\\ParallelGaussianElimination.cs",
               "RelativeToolTip": "GaussianElimination.ConsoleApp\\ParallelGaussianElimination.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAAwDoAAAAAAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAEwBAAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-24T22:56:21.55Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ConsistentGaussianElimination.cs",
               "DocumentMoniker": "D:\\Projects\\Parallel\\KR\\GaussianElimination\\GaussianElimination.ConsoleApp\\ConsistentGaussianElimination.cs",
               "RelativeDocumentMoniker": "GaussianElimination.ConsoleApp\\ConsistentGaussianElimination.cs",
               "ToolTip": "D:\\Projects\\Parallel\\KR\\GaussianElimination\\GaussianElimination.ConsoleApp\\ConsistentGaussianElimination.cs",
               "RelativeToolTip": "GaussianElimination.ConsoleApp\\ConsistentGaussianElimination.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADgAAAAAAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwBwAAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-24T21:20:40.819Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-24T21:20:40.819Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Projects\\Parallel\\KR\\GaussianElimination\\GaussianElimination.ConsoleApp\\Program.cs",
               "RelativeDocumentMoniker": "GaussianElimination.ConsoleApp\\Program.cs",
               "ToolTip": "D:\\Projects\\Parallel\\KR\\GaussianElimination\\GaussianElimination.ConsoleApp\\Program.cs",
               "RelativeToolTip": "GaussianElimination.ConsoleApp\\Program.cs",
-              "ViewState": "AQIAADcAAAAAAAAAAAAAwFsAAAAAAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwCAAAACKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-24T18:13:45.001Z",
               "EditorCaption": ""

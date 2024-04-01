@@ -13,6 +13,9 @@ public static class ParallelGaussianElimination
 
     private static void ApplyGaussElimination(double[,] matrix, int variablesAmount)
     {
+        ParallelOptions options = new();
+        options.MaxDegreeOfParallelism = Environment.ProcessorCount;
+
         for (int i = 0; i < variablesAmount - 1; i++)
         {
             if (matrix[i, i] == 0)
@@ -20,7 +23,7 @@ public static class ParallelGaussianElimination
                 throw new ArgumentException("Mathematical error.");
             }
 
-            Parallel.For(fromInclusive: i + 1, toExclusive: variablesAmount, j =>
+            Parallel.For(fromInclusive: i + 1, toExclusive: variablesAmount, options,  j =>
             {
                 double ratio;
 
@@ -28,7 +31,7 @@ public static class ParallelGaussianElimination
 
                 for (int k = 0; k < variablesAmount + 1; k++)
                 {
-                    Interlocked.Exchange(ref matrix[j, k], matrix[j, k] - ratio * matrix[i, k]);
+                    matrix[j, k] = matrix[j, k] - ratio * matrix[i, k];
                 }
             });
         }
